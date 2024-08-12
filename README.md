@@ -46,5 +46,5 @@
 
 Deploy this starter with one click on UPDATED [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/VirtualJoe760/lunch-spot)
+[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/VirtualJoe760/the-lunch-spot)
 
