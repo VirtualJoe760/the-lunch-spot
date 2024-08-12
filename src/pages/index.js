@@ -22,6 +22,7 @@ const IndexPage = () => {
               href="https://www.grubhub.com/restaurant/the-lunch-spot-74868-joni-dr-palm-desert/2369998"
               target="_blank"
               rel="noopener noreferrer"
+              className="mx-auto lg:mx-0"
             >
               <button className="mx-auto lg:mx-0 hover:underline hover:text-red bg-white text-navy font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                 Order food
