@@ -93,6 +93,7 @@ const Navbar = () => {
         </div>
         <div className="block lg:hidden pr-4">
           <button
+            roll="button"
             id="nav-toggle"
             className="flex items-center p-1 text-red hover:text-white focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
@@ -154,6 +155,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <button
+              roll="button"
               id="navAction"
               className="mx-auto lg:mx-0 hover:underline bg-white text-navy hover:text-red font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
             >
