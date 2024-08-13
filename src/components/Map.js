@@ -26,8 +26,11 @@ const Map = () => {
 
   return (
     <MapContainer
-     className='mx-auto md:w-5 md:h-5'
-     center={position} zoom={15} style={{ height: '400px', width: '600px', }}>
+     center={position} 
+     zoom={15}
+     className='w-full h-64 sm:h-80 md:w-600px md:h-400px lg:h-400px mx-auto'
+     >
+      
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

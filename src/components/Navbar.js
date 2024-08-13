@@ -57,7 +57,7 @@ const Navbar = () => {
               className="toggleColour text-red no-underline hover:no-underline  font-bold text-2xl lg:text-4xl"
               to="/"
             >
-              {/* Navbar Logo: Icon from: http://www.potlabicons.com/ */}
+              {/* Navbar Icon */}
               <svg
                 className="h-8 fill-current inline mx-2 mb-1 hover:rotate-45"
                 xmlns="http://www.w3.org/2000/svg"
