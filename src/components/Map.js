@@ -1,8 +1,9 @@
-import React from 'react';
+import * as React from 'react';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import markerIcon from '../images/map-marker.svg';
+import { useEffect, useState } from 'react';
 
 // Create a custom icon
 const customIcon = new L.Icon({
@@ -12,7 +13,16 @@ const customIcon = new L.Icon({
 });
 
 const Map = () => {
+  const [isClient, setIsClient] = useState(false);
   const position = [33.7412275, -116.3582463]; // Coordinates for The Lunch Spot @ Joni Drive
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null; // return null during ssr
+  }
 
   return (
     <MapContainer
