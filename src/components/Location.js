@@ -1,7 +1,8 @@
 import * as React from "react";
 import LinkButton from "./LinkButton";
-import Map from "./Map";
+import loadable from '@loadable/component';
 
+const Map = loadable(() => import('./Map'));
 
 const Location = () => {
   return (
