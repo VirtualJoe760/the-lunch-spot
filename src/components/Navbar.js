@@ -17,7 +17,7 @@ const Navbar = () => {
         >
           {isHovered ? (
             <Link
-              className="toggleColour text-white no-underline hover:no-underline  font-bold text-2xl lg:text-4xl"
+              className="toggleColour text-white no-underline hover:no-underline font-bold text-5x"
               to="/"
             >
               {/* Navbar Logo: Icon from: http://www.potlabicons.com/ */}

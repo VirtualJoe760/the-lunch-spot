@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Location from './Location';
 import Footer from './Footer';
+import ParallaxSection from './ParallaxSection';
 
 const Layout = ({ children }) => {
     return (
@@ -10,7 +11,9 @@ const Layout = ({ children }) => {
         <Navbar />
         <Hero />
         <Location />
+        {/* <ParallaxSection /> */}
         <Footer />
+        
         {children}
       </div>
     );

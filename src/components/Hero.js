@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <>
     <div className="pt-24 bg-navy">
-        <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <div className="container px-3 pb-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* <!--Left Col--> */}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <p className="uppercase tracking-loose w-full text-white">
-              Welcome to The Lunch Spot!
+            <p className="md:visible md:ms-50 sm:invisible uppercase tracking-loose w-full text-red pb-10">
+              Established 2020!
             </p>
             <h1 className="my-4 text-5xl font-bold leading-tight text-white">
               Fresh food made daily!
@@ -29,7 +29,7 @@ const Hero = () => {
           {/* <!--Right Col--> */}
           <div className="w-full md:w-3/5 py-6 text-center">
             <img
-              className="w-full md:w-4/5 z-50"
+              className="w-full md:w-4/5 z-50 sm:w-2/5 mx-auto"
               src={heroImage}
               alt="hero img"
             />
